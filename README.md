@@ -13,7 +13,7 @@ este módulo es muy barato y de fácil adquisición, esta clase lee los valores 
 
 ```python
 #importa el modulo
-import MPU6050
+from Utilitarios import MPU6050
 #crea un objeto MPU6050
 imu = MPU6050()
 #lee los valores de aceleracion con get_acc(scaled=True)
